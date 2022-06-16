@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NavigationTest/app/src/main/res/layout-land/activity_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout-land/fragment_about.xml" value="0.31040564373897706" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout-land/fragment_correct_answer.xml" value="1.0" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout-land/fragment_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout-land/fragment_question.xml" value="0.31040564373897706" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout-land/fragment_rules.xml" value="0.31040564373897706" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout-land/fragment_wrong_answer.xml" value="0.31040564373897706" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout-land/nav_header.xml" value="0.31040564373897706" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/activity_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/fragment_about.xml" value="0.33" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/fragment_correct_answer.xml" value="0.25" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/fragment_main.xml" value="0.2755208333333333" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/fragment_question.xml" value="0.33" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/fragment_rules.xml" value="0.2755208333333333" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/fragment_wrong_answer.xml" value="0.1956521739130435" />
+        <entry key="..\:/NavigationTest/app/src/main/res/layout/nav_header.xml" value="0.2755208333333333" />
+        <entry key="..\:/NavigationTest/app/src/main/res/menu/navdrawer_menu.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.325" />
+        <entry key="app/src/main/res/drawable/ic_baseline_rule_24.xml" value="0.325" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_correct_answer.xml" value="0.254981884057971" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_question.xml" value="0.254981884057971" />
+        <entry key="app/src/main/res/layout/fragment_wrong_answer.xml" value="0.254981884057971" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.254981884057971" />
+        <entry key="app/src/main/res/menu/navdrawer_menu.xml" value="0.3507692307692308" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

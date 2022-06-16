@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="eu.todek.navigationtest.MainFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_questionFragment"
+            app:destination="@id/questionFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="eu.todek.navigationtest.QuestionFragment"
+        android:label="Questions"
+        tools:layout="@layout/fragment_question" >
+        <action
+            android:id="@+id/action_questionFragment_to_correctAnswerFragment"
+            app:destination="@id/correctAnswerFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_questionFragment_to_wrongAnswerFragment"
+            app:destination="@id/wrongAnswerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/correctAnswerFragment"
+        android:name="eu.todek.navigationtest.CorrectAnswerFragment"
+        android:label="Congratulations!"
+        tools:layout="@layout/fragment_correct_answer" >
+        <action
+            android:id="@+id/action_correctAnswerFragment_to_questionFragment"
+            app:destination="@id/questionFragment" />
+        <argument
+            android:name="nCorrectAnswers"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/wrongAnswerFragment"
+        android:name="eu.todek.navigationtest.WrongAnswerFragment"
+        android:label="Failed"
+        tools:layout="@layout/fragment_wrong_answer" >
+        <action
+            android:id="@+id/action_wrongAnswerFragment_to_questionFragment"
+            app:destination="@id/questionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="eu.todek.navigationtest.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="eu.todek.navigationtest.RulesFragment"
+        android:label="Rules"
+        tools:layout="@layout/fragment_rules" />
+</navigation>

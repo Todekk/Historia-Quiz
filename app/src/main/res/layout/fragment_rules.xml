@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D4248"
+    tools:context=".RulesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="RULES"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:text="You are asked a set of questions, getting them right wins the game. The questions vary from history to georgraphy. \n You get 5 random questions, getting more than 3 right earns you a pass, failing to get at least 3 earns you a loss. \n"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="51dp"
+        android:src="?android:attr/actionModeFindDrawable" />
+
+</FrameLayout>

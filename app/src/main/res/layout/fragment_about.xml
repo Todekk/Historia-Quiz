@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D4248"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="HISTORIA"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="681dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:text="Historia is a quiz app that tests your History and Geography knowledge. \n What to expect: \n Roman History, Chinese History, Mongolian History, American History, General World History and General World geography."
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="710dp"
+        android:background="#FFFFFF"
+        android:text="CONTACT US: teditods13@gmail.com" />
+
+</FrameLayout>
